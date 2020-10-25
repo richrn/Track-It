@@ -51,6 +51,10 @@ public class Calculator {
 		frmTrackit.setBounds(100, 100, 1280, 720);
 		frmTrackit.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frmTrackit.getContentPane().setLayout(null);
+		// Sets the size of the frame of the application
+		frmTrackit.setSize(1000, 800);
+        frmTrackit.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frmTrackit.setVisible(true);
 		
 		JLabel lblTitle = new JLabel("Calorie Calculator");
 		lblTitle.setHorizontalAlignment(SwingConstants.CENTER);
@@ -178,9 +182,12 @@ public class Calculator {
 		btnAdd.setBounds(704, 559, 125, 44);
 		frmTrackit.getContentPane().add(btnAdd);
 		
+
+		// I do not know what your plan for this button is, but its current dimensions do not let text on it
+		/*
 		JButton btnGit = new JButton("");
 		btnGit.setIcon(new ImageIcon("C:\\Users\\csros\\Downloads\\CLASS STUFF\\ENTERPRISE\\Documents\\GitHub-Mark\\PNG\\GitHub-Mark-32px.png"));
 		btnGit.setBounds(10, 638, 32, 32);
-		frmTrackit.getContentPane().add(btnGit);
+		frmTrackit.getContentPane().add(btnGit);*/
 	}
 }

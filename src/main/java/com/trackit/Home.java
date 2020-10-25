@@ -1,4 +1,4 @@
-package com.trackit;
+/*package com.trackit;
 
 import java.awt.EventQueue;
 
@@ -27,6 +27,7 @@ public class Home {
 	/**
 	 * Launch the application.
 	 */
+	/*
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
@@ -43,6 +44,7 @@ public class Home {
 	/**
 	 * Create the application.
 	 */
+	/*
 	public Home() {
 		initialize();
 	}
@@ -50,6 +52,8 @@ public class Home {
 	/**
 	 * Initialize the contents of the frame.
 	 */
+
+	 /*
 	private void initialize() {
 		frmTrackIt = new JFrame();
 		frmTrackIt.setMinimumSize(new Dimension(1280, 720));
@@ -175,3 +179,4 @@ public class Home {
 		frmTrackIt.getContentPane().add(btnGit);
 	}
 }
+*/
